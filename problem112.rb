@@ -24,12 +24,7 @@ def bouncy?(current)
             end
             last = digit
         end
-
-        if (!increasing && !decreasing)
-            return true
-        else
-            return false
-        end
+        return (!increasing && !decreasing)
 end
 
 solve112(0.99)
